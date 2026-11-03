@@ -3,3 +3,6 @@
 @media(max-width:760px){.wrap{width:calc(100% - 40px)}.site-header{padding-block:20px}.site-header nav{gap:20px}.hero{padding:65px 0 50px}.support-panel{grid-template-columns:1fr;gap:24px;padding:26px;margin-bottom:48px}.support-note{border-left:0;border-top:1px solid var(--line);padding:22px 0 0}.site-footer{flex-direction:column;gap:12px}.policy-heading{padding:48px 0 30px}.policy-layout{grid-template-columns:1fr;gap:36px;padding-bottom:45px}.contents{position:static;display:grid;grid-template-columns:1fr 1fr;gap:8px 20px}.contents p{grid-column:1/-1}.lede{font-size:1.05rem}.actions{gap:20px}.policy-body h2{font-size:1.25rem}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 @media print{:root{color-scheme:light;--bg:#fff;--surface:#fff;--text:#111;--muted:#333;--accent:#333;--line:#bbb}.site-header nav,.contents,.skip-link{display:none}.wrap{width:100%}.policy-layout{display:block}.policy-heading{padding:20px 0}.site-footer{padding:15px 0}.policy-body{max-width:none}.policy-body section{break-inside:avoid}a{color:#111}}
+
+/* Download identities stay readable on narrow screens. */
+.site-header{flex-wrap:wrap}.site-header nav{flex-wrap:wrap}.source-card>div{min-width:0}.checksum{font-family:ui-monospace,SFMono-Regular,Consolas,monospace;font-size:.85rem;overflow-wrap:anywhere;word-break:break-word}
