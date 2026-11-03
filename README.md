@@ -10,9 +10,12 @@ Default home: https://runic-system.github.io/overseer-website/
 
 Privacy policy: https://runic-system.github.io/overseer-website/privacy/
 
+Source/notices downloads: https://runic-system.github.io/overseer-website/downloads/
+
 ## Maintaining the site
 
 - Edit `index.html` for the homepage and support contact.
+- Edit `downloads/index.html` for the named source/notices release assets and exact companion/APK checksums. Large source ZIPs are GitHub Release assets, not tracked Git files.
 - Edit `privacy/index.html` for the policy; update its effective date when practices change.
 - Shared responsive styling is in `assets/site.css`.
 - Pages use relative links so they also work with an optional custom domain.
